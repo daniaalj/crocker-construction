@@ -1,3 +1,32 @@
+body {
+    background-color: white;
+}
+
 div.top-section {
-    background-image: url(jcmwindows.png);
+    height: 100%;
+    background-image:url(img/jcmwindows.png);
+    background-size:cover;
+    background-blend-mode: lighten;
+    background-color: #4B2E39;
+}
+
+div.footer {
+    position:fixed;
+}
+
+nav.navbar {
+    position: fixed;
+}
+
+h1 {
+    font-size: 650%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    padding-top:20%;
+    padding-bottom:23%;
+}
+
+#logo {
+    width:20%;
 }
