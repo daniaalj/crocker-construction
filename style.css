@@ -2,28 +2,39 @@ body {
     background-color: white;
 }
 
-div.top-section {
-    height: 100%;
+div.top-section-home {
+    height:100%;
     background-image:url(img/jcmwindows.png);
     background-size:cover;
     background-blend-mode:overlay;
     background-color: #7F7066;
-    filter: saturate(120%);
-    filter:brightness(100%);
     filter:contrast(120%);
+}
+
+div.top-section {
+    height: 60%;
+    background-image:url(img/jcmbus.png);
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-color: #7F7066;
+    filter:contrast(100%);
 }
 
 div.footer {
     position:fixed;
 }
 
+nav {
+    height:10%;
+}
+
 nav.navbar {
     position: fixed;
-    width: 100%;
+    width: 99%;
 }
 
 a.navbar-brand {
-    width:11%;
+    width: 12rem;
 }
 
 h1 {
