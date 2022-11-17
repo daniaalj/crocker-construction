@@ -1,36 +1,44 @@
-body {
-    background-color: white;
-}
-
-div.top-section-home {
-    height:100%;
+body.other-page {
     background-image:url(img/jcmwindows.png);
     background-size:cover;
     background-blend-mode:overlay;
     background-color: #7F7066;
     filter:contrast(120%);
+    background-attachment: fixed;
 }
 
-div.top-section {
-    height: 60%;
+body.contact-page {
     background-image:url(img/jcmbus.png);
     background-size:cover;
     background-blend-mode:overlay;
     background-color: #7F7066;
     filter:contrast(100%);
+    background-attachment: fixed;
+}
+
+div.top-section-home {
+    height:100%;
+}
+
+div.top-section-contact {
+    height: 60%;
+}
+
+div.middle-section {
+    background-color: white;
+}
+
+div.middle-section-info {
+    background-color: white;
 }
 
 div.footer {
-    position:fixed;
+    background-color: white;
+    width: 100%;
 }
 
-nav {
-    height:10%;
-}
-
-nav.navbar {
-    position: fixed;
-    width: 99%;
+.navbar {
+    width: 100%;
 }
 
 a.navbar-brand {
@@ -42,16 +50,17 @@ h1 {
     font-family: 'Roboto Slab', serif;
     color: white;
     text-align: center;
-    padding-top:20%;
-    padding-bottom:23%;
+    padding-top:16%;
+    padding-bottom:22%;
 }
 
 #logo {
     width:100%;
 }
 
-img.home-image {
-    width: 70%;
-    height:130%;
+.home-image {
+    width: 25rem;
+    height:18rem;
     object-fit: cover;
+
 }
