@@ -2,7 +2,7 @@ body.other-page {
     background-image:url(img/jcmwindows.png);
     background-size:cover;
     background-blend-mode:overlay;
-    background-color: #7F7066;
+    background-color: #665950;
     filter:contrast(120%);
     background-attachment: fixed;
 }
@@ -45,17 +45,42 @@ a.navbar-brand {
     width: 12rem;
 }
 
-h1 {
-    font-size: 700%;
+h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
+    text-align: start;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 6rem;
     color: white;
-    text-align: center;
     padding-top:16%;
-    padding-bottom:22%;
+    font-style: bold;
+}
+
+.bottom-margin {
+    margin-bottom: 24%
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3.top {
+    color: white;
+}
+
+button.top{
+    margin-bottom:20%;
+    margin-left:2%;
+    width: 10rem;
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
 }
 
 #logo {
-    width:100%;
+    width:115%;
+    filter: invert (100%);
 }
 
 .home-image {
@@ -63,4 +88,8 @@ h1 {
     height:18rem;
     object-fit: cover;
 
+}
+
+#btn-margin-top {
+    margin-bottom: 18%;
 }
