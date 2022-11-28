@@ -1,24 +1,17 @@
 body.other-page {
     background-image:url(img/jcmwindows.png);
-    background-size:cover;
     backdrop-filter:brightness(90%);
     background-attachment: fixed;
 }
 
 body.contact-page {
     background-image:url(img/jcmbus.png);
-    background-size:cover;
     backdrop-filter:brightness(90%);
     background-attachment: fixed;
 }
 
-/*navbar*/
-a.navbar-brand {
-    width: 12rem;
-}
-
-#logo {
-    width:115%;
+body.contact-page, body.other-page, .cover {
+    background-size:cover;
 }
 
 div.flush {
@@ -26,14 +19,56 @@ div.flush {
     padding-right: 0%;
 }
 
-div.middle-section, div.middle-section-info, div.footer {
+.middle-section-info, .white, .footer{
     background-color: white;
+}
+
+div.middle-section-info{
+    height: 50rem;
+}
+
+.white-space {
+    background-color:white;
+    height: 40rem;
+}
+
+.white-spacer {
+    background-color:white;
+    height: 20rem;
+}
+
+.space {
+    height:65rem;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div.top-display-home {
+    margin-top:20%;
+    margin-bottom:17%;
+    text-align:center;
 }
 
 div.top-display {
     margin-top:23%;
     margin-bottom:17%;
     text-align:end;
+}
+
+/*iframe circle*/
+.outer-circle {
+    position:relative;
+}
+
+.circle {
+    position:absolute;
+    border-radius:50%;
+    overflow:hidden
+}
+
+iframe, .circle {
+    width:30rem;
+    height:30rem;
 }
 
 /*headings*/
@@ -70,9 +105,32 @@ h2 {
 }
 
 /*images*/
-.home-image {
-    width: 25rem;
-    height:18rem;
-    object-fit: cover;
+#home-image-1 {
+    background-image: url(img/jcmfhenterance.png);
+}
 
+#home-image-2 {
+    background-image: url(img/mahschemlab.png);
+}
+
+#home-image-3 {
+    background-image: url(img/jcmgym.png);
+}
+
+/*navbar*/
+a.navbar-brand {
+    width: 12rem;
+}
+
+#logo {
+    width:115%;
+}
+
+#scroll-arrow {
+    width:5rem;
+    height:5rem;
+}
+
+div#map-row {
+    height:40rem;
 }
