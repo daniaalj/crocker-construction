@@ -1,95 +1,78 @@
 body.other-page {
     background-image:url(img/jcmwindows.png);
     background-size:cover;
-    background-blend-mode:overlay;
-    background-color: #665950;
-    filter:contrast(120%);
+    backdrop-filter:brightness(90%);
     background-attachment: fixed;
 }
 
 body.contact-page {
     background-image:url(img/jcmbus.png);
     background-size:cover;
-    background-blend-mode:overlay;
-    background-color: #7F7066;
-    filter:contrast(100%);
+    backdrop-filter:brightness(90%);
     background-attachment: fixed;
 }
 
-div.top-section-home {
-    height:100%;
-}
-
-div.top-section-contact {
-    height: 60%;
-}
-
-div.middle-section {
-    background-color: white;
-}
-
-div.middle-section-info {
-    background-color: white;
-}
-
-div.footer {
-    background-color: white;
-    width: 100%;
-}
-
-.navbar {
-    width: 100%;
-}
-
+/*navbar*/
 a.navbar-brand {
     width: 12rem;
 }
 
+#logo {
+    width:115%;
+}
+
+div.flush {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+div.middle-section, div.middle-section-info, div.footer {
+    background-color: white;
+}
+
+div.top-display {
+    margin-top:23%;
+    margin-bottom:17%;
+    text-align:end;
+}
+
+/*headings*/
 h1, h2, h3 {
-    font-family: 'Roboto Slab', serif;
-    text-align: start;
-    padding-left: 2%;
+    font-family: 'Heebo', sans-serif;
 }
 
-h1 {
-    font-size: 6rem;
+.top {
     color: white;
-    padding-top:16%;
-    font-style: bold;
 }
 
-.bottom-margin {
-    margin-bottom: 24%
+h1{
+    font-size: 5rem;
+    font-style: bold;
 }
 
 h2 {
     font-size: 3rem;
 }
 
-h3.top {
-    color: white;
+/*buttons*/
+
+.top-button {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
-button.top{
-    margin-bottom:20%;
-    margin-left:2%;
-    width: 10rem;
-    text-align:center;
-    font-family: 'Roboto Slab', serif;
+#contact-button {
+    margin-right: 1.5rem;
 }
 
-#logo {
-    width:115%;
-    filter: invert (100%);
+#find-out-button {
+    margin-top:1rem;
 }
 
+/*images*/
 .home-image {
     width: 25rem;
     height:18rem;
     object-fit: cover;
 
-}
-
-#btn-margin-top {
-    margin-bottom: 18%;
 }
