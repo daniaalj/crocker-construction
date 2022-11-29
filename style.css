@@ -1,10 +1,10 @@
-body.other-page {
+.top-section-other {
     background-image:url(img/jcmwindows.png);
-    backdrop-filter:brightness(90%);
+    backdrop-filter:brightness(85%);
     background-attachment: fixed;
 }
 
-body.contact-page {
+.top-section-contact {
     background-image:url(img/jcmbus.png);
     backdrop-filter:brightness(90%);
     background-attachment: fixed;
@@ -12,6 +12,10 @@ body.contact-page {
 
 body.contact-page, body.other-page, .cover {
     background-size:cover;
+}
+
+.fill {
+    background-size: fill;
 }
 
 div.flush {
@@ -27,32 +31,52 @@ div.middle-section-info{
     height: 50rem;
 }
 
+/*spacing and margins*/
 .white-space {
     background-color:white;
+}
+
+.medium-space {
     height: 40rem;
 }
 
-.white-spacer {
-    background-color:white;
-    height: 20rem;
+.spacer-row {
+    height: 30rem;
 }
 
-.space {
-    height:65rem;
+.spacer-row-sm {
+    height: 10rem;
+}
+
+.img-space-sm, .img-space, .img-space-lg, .img-space-xlg {
     background-attachment: fixed;
     background-position: center;
 }
 
-div.top-display-home {
-    margin-top:20%;
-    margin-bottom:17%;
-    text-align:center;
+.img-space-sm {
+    height: 30rem;
 }
 
-div.top-display {
-    margin-top:23%;
-    margin-bottom:17%;
-    text-align:end;
+.img-space {
+    height: 40rem;
+}
+
+.img-space-lg {
+    height: 50rem;
+}
+
+.img-space-xlg {
+    height: 55rem;
+}
+
+.top-display-home {
+    text-align:center;
+    padding-top:17%;
+    padding-bottom:22%
+}
+
+.top-display-other {
+    text-align:center;
 }
 
 /*iframe circle*/
@@ -71,7 +95,7 @@ iframe, .circle {
     height:30rem;
 }
 
-/*headings*/
+/*text*/
 h1, h2, h3 {
     font-family: 'Heebo', sans-serif;
 }
@@ -81,13 +105,22 @@ h1, h2, h3 {
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 6rem;
     font-style: bold;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
+
+h3 {
+    font-size: 2rem;
+}
+
+.text-bottom {
+    padding-top: 16rem;
+}
+
 
 /*buttons*/
 
@@ -105,30 +138,33 @@ h2 {
 }
 
 /*images*/
-#home-image-1 {
+.home-image-1 {
     background-image: url(img/jcmfhenterance.png);
 }
 
-#home-image-2 {
+.home-image-2 {
     background-image: url(img/mahschemlab.png);
 }
 
-#home-image-3 {
+.home-image-3 {
     background-image: url(img/jcmgym.png);
 }
 
+.home-image-4 {
+    background-image: url(img/jcmsinging.png)
+}
+
 /*navbar*/
+nav.navbar {
+    position:fixed 0;
+}
+
 a.navbar-brand {
     width: 12rem;
 }
 
 #logo {
     width:115%;
-}
-
-#scroll-arrow {
-    width:5rem;
-    height:5rem;
 }
 
 div#map-row {
