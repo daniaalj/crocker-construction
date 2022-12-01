@@ -15,7 +15,7 @@ body.contact-page, body.other-page, .cover {
 }
 
 .fill {
-    background-size: fill;
+    background-size:contain;
 }
 
 div.flush {
@@ -59,10 +59,6 @@ div.middle-section-info{
 
 .img-space-lg {
     height: 45rem;
-}
-
-.img-space-xlg {
-    height: 55rem;
 }
 
 .top-display-home {
@@ -117,6 +113,10 @@ h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 4rem;
+}
+
 
 /*buttons*/
 
@@ -139,7 +139,7 @@ h3 {
 }
 
 .home-image-2 {
-    background-image: url(img/mahschemlab.png);
+    background-image: url(img/mahschemlabcropped.png);
 }
 
 .home-image-3 {
@@ -150,14 +150,16 @@ h3 {
     background-image: url(img/jcmsinging.png)
 }
 
+.card-img
+
 /*navbar*/
 
 a.navbar-brand {
     width: 12rem;
 }
 
-#logo {
-    width:115%;
+.logo {
+    width:12rem;
 }
 
 #logo-footer {
@@ -180,4 +182,4 @@ div#map-row {
         padding-top:45%;
         padding-bottom:45%
     }
-}
+} 
