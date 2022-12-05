@@ -14,10 +14,6 @@ body.contact-page, body.other-page, .cover {
     background-size:cover;
 }
 
-.fill {
-    background-size:contain;
-}
-
 div.flush {
     padding-left: 0%;
     padding-right: 0%;
@@ -54,7 +50,7 @@ div.middle-section-info{
 }
 
 .img-space {
-    height: 35rem;
+    height: 40rem;
 }
 
 .img-space-lg {
@@ -100,7 +96,7 @@ h1, h2, h3 {
     font-family: 'Heebo', sans-serif;
 }
 
-.top {
+.white-text {
     color: white;
 }
 
@@ -189,7 +185,7 @@ div#map-row {
         font-size: 1rem;
     }
     h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .top-display-home {
         text-align:center;
