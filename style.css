@@ -82,13 +82,17 @@ div.middle-section-info{
 
 .circle {
     position:absolute;
-    border-radius:50%;
+    border-radius:5%;
     overflow:hidden
 }
 
 iframe, .circle {
-    width:30rem;
-    height:30rem;
+    width:25rem;
+    height:25rem;
+}
+
+.testimonial {
+    width: 40rem;
 }
 
 /*text*/
@@ -146,11 +150,18 @@ h4 {
     background-image: url(img/jcmgym.png);
 }
 
-.home-image-4 {
-    background-image: url(img/jcmsinging.png)
+/*cards*/
+
+.card-size {
+    width: 100%;
+    height: auto;
 }
 
-.card-img
+.card-img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    margin-bottom: .5rem;
+}
 
 /*navbar*/
 
@@ -176,6 +187,9 @@ div#map-row {
     }
     h3{
         font-size: 1rem;
+    }
+    h2{
+        font-size: 3rem;
     }
     .top-display-home {
         text-align:center;
