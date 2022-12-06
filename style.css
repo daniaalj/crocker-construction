@@ -159,6 +159,12 @@ h4 {
     margin-bottom: .5rem;
 }
 
+.card-img-square {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: .5rem;
+}
+
 /*navbar*/
 
 a.navbar-brand {
