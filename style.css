@@ -44,6 +44,15 @@
     color:white;
 }
 
+a.colorless-link{
+    color:inherit;
+}
+
+a.colorless-link:hover{
+    color: #5c5c5c;
+    cursor:pointer;
+}
+
 /*alignment and background formatting*/
 .img-space-sm, .img-space-lg, .top-section-home, .top-section-contact, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials {
     background-attachment: fixed;
@@ -69,30 +78,31 @@ div.flush {
 }
 
 .medium-space, .img-space-lg {
-    height: 40rem;
+    height: 80vh;
 }
 
 .img-space-sm, .small-space{
-    height: 30rem;
+    height: 60vh;
 }
 
 .spacer-row {
-    height: 15rem;
+    height: 30vh;
 }
 
 .spacer-row-sm {
-    height: 5rem;
+    height: 15vh;
 }
 
-div.middle-section-info{
-    height: 50rem;
+.testimonial-space {
+    height: auto;
+    padding-top:5rem;
+    padding-bottom:5rem;
 }
 
 /*testimonial formatting*/
 .testimonial {
-    width: 40rem;
+    aspect-ratio: 3/2;
 }
-
 /*iframe circle*/
 
 .iframe-shape {
@@ -112,8 +122,8 @@ h1.title {
     font-style:bold;
 }
 
-.title {
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+.text-shadow {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 h1, h2, h3, h4{
@@ -137,7 +147,11 @@ h4 {
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+}
+
+h6 {
+    font-size: 1.4rem;
 }
 
 .statement-text {
@@ -209,7 +223,7 @@ div#map-row {
     height:40rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 992px)  and (min-width: 600px) {
     h1{
         font-size: 4rem;
     }
@@ -217,9 +231,28 @@ div#map-row {
         font-size: 3rem;
     }
     h3{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     h4{
+        font-size: 2rem;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+    h6{
         font-size: 1rem;
     }
+    .testimonial-text{
+        padding-top: 2rem;
+    }
+    .testimonial-space{
+        height:auto;
+        padding-top: 2rem;
+    }
 } 
+
+@media(max-width: 600px) {
+    h1 {
+        color:red;
+    }
+}
