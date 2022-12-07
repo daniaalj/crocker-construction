@@ -24,11 +24,15 @@
 }
 
 .top-section-testimonials{
-    background-image:url(img/mahslab.png);
+    background-image:url(img/jcmlibrary.png);
 }
 
-.top-section-contact, .top-section-other, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials, .top-section-home {
-    height: 50rem;
+.top-section-contact, .top-section-other, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials{
+    height: 80vh;
+}
+
+.top-section-home {
+    height: 100vh;
 }
 
 /*color*/
@@ -90,19 +94,16 @@ div.middle-section-info{
 }
 
 /*iframe circle*/
-.outer-circle {
-    position:relative;
-}
 
 .circle {
     position:absolute;
     border-radius:5%;
     overflow:hidden
+    aspect-ratio: 1/1;
 }
 
 iframe, .circle {
-    width:25rem;
-    height:25rem;
+    height: 100%
 }
 
 /*text*/
