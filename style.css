@@ -1,39 +1,75 @@
-.top-section-other {
+/*top section backgrounds*/
+.top-section-home{
     background-image:url(img/jcmwindows.png);
-    backdrop-filter:brightness(85%);
-    background-attachment: fixed;
 }
 
 .top-section-contact {
     background-image:url(img/jcmbus.png);
-    backdrop-filter:brightness(90%);
-    background-attachment: fixed;
 }
 
-body.contact-page, body.other-page, .cover {
+.top-section-other{
+    background-image:url(img/mahsstairs.png);
+}
+
+.top-section-hcbcorp{
+    background-image:url(img/jcmsinging.png);
+}
+
+.top-section-ourteam{
+    background-image:url(img/mahslab.png);
+}
+
+.top-section-projects{
+    background-image:url(img/theliftcafe.jpg);
+}
+
+.top-section-testimonials{
+    background-image:url(img/mahslab.png);
+}
+
+.top-section-contact, .top-section-other, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials, .top-section-home {
+    height: 50rem;
+}
+
+/*color*/
+.middle-section-info, .white {
+    background-color: white;
+}
+
+.white-text{
+    color:white;
+}
+
+/*alignment and background formatting*/
+.img-space-sm, .img-space-lg, .top-section-home, .top-section-contact, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials {
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.cover {
     background-size:cover;
 }
 
+/*spacing and alignment*/
 div.flush {
     padding-left: 0%;
     padding-right: 0%;
 }
 
-.middle-section-info, .white, .footer{
-    background-color: white;
-}
-
-div.middle-section-info{
-    height: 50rem;
-}
-
-/*spacing and margins*/
 .white-space {
     background-color:white;
 }
 
-.medium-space {
+.medium-space, .img-space-lg {
     height: 40rem;
+}
+
+.img-space-sm {
+    height: 30rem;
 }
 
 .spacer-row {
@@ -44,31 +80,13 @@ div.middle-section-info{
     height: 5rem;
 }
 
-.img-space-sm, .img-space, .img-space-lg, .img-space-xlg {
-    background-attachment: fixed;
-    background-position: center;
+div.middle-section-info{
+    height: 50rem;
 }
 
-.img-space {
-    height: 40rem;
-}
-
-.img-space-lg {
-    height: 45rem;
-}
-
-.top-display-home {
-    padding-top:17%;
-    padding-bottom:22%
-}
-
-.top-display-other {
-    padding-top:17%;
-    padding-bottom:24%;
-}
-
-.center {
-    text-align: center;
+/*testimonial formatting*/
+.testimonial {
+    width: 40rem;
 }
 
 /*iframe circle*/
@@ -87,22 +105,21 @@ iframe, .circle {
     height:25rem;
 }
 
-.testimonial {
-    width: 40rem;
-}
-
 /*text*/
-h1, h2, h3 {
-    font-family: 'Heebo', sans-serif;
+h1.title {
+    font-style:bold;
 }
 
-.white-text {
-    color: white;
+.title {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Heebo', sans-serif;
 }
 
 h1{
     font-size: 6rem;
-    font-style: bold;
 }
 
 h2 {
@@ -110,16 +127,25 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
-}
-
-h4 {
     font-size: 4rem;
 }
 
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.statement-text {
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
 
 /*buttons*/
-
 .top-button {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -147,7 +173,6 @@ h4 {
 }
 
 /*cards*/
-
 .card-size {
     width: 100%;
     height: auto;
@@ -166,7 +191,6 @@ h4 {
 }
 
 /*navbar*/
-
 a.navbar-brand {
     width: 12rem;
 }
@@ -185,17 +209,15 @@ div#map-row {
 
 @media only screen and (max-width: 768px) {
     h1{
+        font-size: 4rem;
+    }
+    h2{
         font-size: 3rem;
     }
     h3{
-        font-size: 1rem;
-    }
-    h2{
         font-size: 2rem;
     }
-    .top-display-home {
-        text-align:center;
-        padding-top:45%;
-        padding-bottom:45%
+    h4{
+        font-size: 1rem;
     }
 } 
