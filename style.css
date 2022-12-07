@@ -67,6 +67,10 @@ a.colorless-link:hover{
     background-size:cover;
 }
 
+img.cover {
+    
+}
+
 /*spacing and alignment*/
 div.flush {
     padding-left: 0%;
@@ -225,7 +229,7 @@ div#map-row {
 
 /*carousel*/
 
-.square {
+.carousel-img-square {
     aspect-ratio: 1/1;
 }
 
