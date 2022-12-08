@@ -35,8 +35,8 @@
                   Projects
                 </a>
                 <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="newerprojects.html">Newer Projects</a></li>
                   <li><a class="dropdown-item" href="olderprojects.html">Older Projects</a></li>
-                  <li><a class="dropdown-item" href="newerprojects.html">Newer Projects</a></li>
                 </ul>
               </li>
             </ul>
@@ -58,57 +58,79 @@
     <!--middle section-->
     <div class="container-fluid white-space">
       <div class="spacer-row-sm"></div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
-          <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/theliftnight3.jpg" alt="The Lift Wellness Center">
-              <h5 class="card-title">The Lift</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Wellness Center</h6>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-thelift" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card card-size" id="index-thelift">
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/theliftnight3.jpg" alt="The Lift Wellness Center">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">The Lift</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Wellness Center</h6>
+                <p class="card-text mb-2">
+                  The Lift was built in 2013 as part of the Jackson Walk. The 84,000 square foot facility features
+                  <ul>
+                    <li>fitness center</li>
+                    <li>clinic</li>
+                    <li>health education area</li>
+                  </ul>
+                </p>
+                <a href="#scroll-thelift" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/jcm.jpg" alt="Jackson Central Merry">
-              <h5 class="card-title">Jackson Central Merry</h5>
-              <h6 class="card-subtitle mb-2 text-muted">JMCSS School</h6>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-jcm" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3"></div>
+        <div class="col-lg-3"></div>
       </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
           <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/mahsoutside2.png" alt="Madison Academic High School">
-              <h5 class="card-title">Madison Academic High School</h5>
-              <h6 class="card-subtitle mb-2 text-muted">JMCSS School</h6>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-mahs" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/jcm.jpg" alt="Jackson Central Merry Early College High School">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">Jackson Central Merry</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Middle & High School</h6>
+                <p class="card-text mb-2">JCM (a combination of Jackson High and Merry High) was renovated and reopened in 2021 after bring active from 1970-2016. </p>
+                <a href="#scroll-jcm" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-lg-3"></div>
+      </div>
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card card-size">
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/mahsoutside2.png" alt="Madison Academic High School">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">Madison Academic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">High School</h6>
+                <p class="card-text mb-2">The new MAHS building was constructed in late 2020 and opened in January 2022.</p>
+                <a href="#scroll-mahs" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
       </div>
     </div>
-    <br>
-
+    
     <div class="container-fluid spacer-row-sm"></div>
 
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="scroll-thelift">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
-          <h4 id="scroll-thelift">The Lift Wellness Center</h4>
+          <h4>The Lift Wellness Center</h4>
           <p>Crocker Construction completed the Lift Wellness Center which has won numerous awards. The center was a $17 million project that was completed in early 2013. The facility is 82,000 sf and features a fitness center of 64,000 sf with a member capacity of 3,500, a clinic with 14,000 sf and 16 examination rooms, and a health education area with 4,000 sf that includes multi-use classrooms, one of which is equipped with an industrial kitchen. It also included a lap pool, a heated exercise pool, a hot tub, dry and wet saunas, a walking track, and a climbing wall. It has won the American Planning Association Tennessee Award and the American Institute of Architects Memphis award for its architecture and design. Crocker Construction was awarded the Golden Aurora Award for Commercial Project Healthcare Facility.</p>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -171,7 +193,7 @@
         <div class="col-md-8">
           <h4 id="scroll-jcm">Jackson Central Merry High School</h4>
           <p>Crocker Construction recently did extensive renovations for Jackson Central Merry High School. The $17.12 million project consisted of 132,870 sf and included 29 classrooms as well as band and choir rooms. It features a brand-new lobby that showcases the school's vibrant history. In addition to the renovations, a new field house with a 1,250-seat gymnasium was built.</p>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls-2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/jcm.jpg " class="d-block w-100" alt="...">
@@ -222,11 +244,11 @@
                 <img src="img/jcmstudents.png" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -244,7 +266,7 @@
         <div class="col-md-8">
           <h4 id="scroll-mahs">Madison Academic High School</h4>
           <p>Crocker Construction built the new three-story Madison Academic High School which was a $14.87 million project consisting of 58,800 sf and 27 classrooms. It has a monumental staircase, trophy cases, 4 laboratories, and band and theater rooms.</p>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls-3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/mahsoutside.png" class="d-block w-100" alt="...">
@@ -280,11 +302,11 @@
                 <img src="img/madison.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>

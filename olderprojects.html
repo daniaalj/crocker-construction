@@ -35,8 +35,8 @@
                   Projects
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="olderprojects.html">Older Projects</a></li>
                   <li><a class="dropdown-item" href="newerprojects.html">Newer Projects</a></li>
+                  <li><a class="dropdown-item active" href="olderprojects.html">Older Projects</a></li>
                 </ul>
               </li>
             </ul>
@@ -56,46 +56,68 @@
     <!--middle section-->
     <div class="container-fluid white-space">
       <div class="spacer-row-sm"></div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
-          <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/newsouthern3c.jpg" alt="New Southern Hotel">
-              <h5 class="card-title">New Southern Hotel</h5>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-thenewsouthernhotel" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card card-size" id="index-newsouthern">
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/newsouthern3c.jpg" alt="New Southern Hotel">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">New Southern Hotel</h5>
+                <p class="card-text mb-2">
+                  The New Southern Hotel is a historical hotel in Jackson, Tennessee.
+                  In 2003, a tornado damaged the building, and it was restored by Crocker Construction Co. for the next two years.
+                </p>
+                <a href="#scroll-thenewsouthernhotel" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/fedcourt2c.png" alt="Federal Courthouse">
-              <h5 class="card-title">The Federal Courthouse</h5>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-federalcourt" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3"></div>
+        <div class="col-lg-3"></div>
       </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
-          <div class="card card-size">
-            <div class="card-body">
-              <img class="card-img" src="img/loveandtruth.jpeg" alt="Love and Truth">
-              <h5 class="card-title">Love and Truth Church</h5>
-              <p class="card-text mb-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#scroll-loveandtruth" class="card-link"><btn class="btn btn-outline-primary">Read More</btn></a>
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card card-size" id="index-fedcourthouse">
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/fedcourt2c.png" alt="The Federal Courthouse">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">Ed Jones Federal Building and U.S. Courthouse</h5>
+                <p class="card-text mb-2">
+                  Following the 2003 tornado, Crocker Construction quickly worked to repair and improve the Federal Building and Courthouse. 
+                </p>
+                <a href="#scroll-federalcourt" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-lg-3"></div>
+      </div>
+      <div class="row card-row-project">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card card-size" id="index-loveandtruth">
+            <div class="row card-body">
+              <div class="col-8">
+                <img class="card-img" src="img/loveandtruth.jpeg" alt="Love & Truth Church">
+              </div>
+              <div class="col-4">
+                <h5 class="card-title">Love & Truth Church</h5>
+                <p class="card-text mb-2">
+                  Love and Truth is a church dedicated to making a difference in people's lives. Crocker Construction worked on Love and Truth by customizing a pre-engineered building system.
+                </p>
+                <a href="#scroll-loveandtruth" class="card-link read-more"><btn class="btn btn-outline-primary">Read More</btn></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
       </div>
     </div>
-    <br>
 
     <div class="container-fluid spacer-row-sm"></div>
 
@@ -110,7 +132,7 @@
           </p>
           <p>The 80,000 square foot restoration is complete and is being used for commercial space on the first and second floors and for residential use above. The New Southern Building is a true example of the talent of Crocker Construction Company and the vision that Hal Crocker has for preserving downtown Jackson.
           </p>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls-4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/newsouthernc.jpg" class="d-block w-100" alt="...">
@@ -137,11 +159,11 @@
                 <img src="img/newsouthernstairs.png" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -157,10 +179,10 @@
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-          <h4 id="scroll-federalcourt">The Federal Court</h4>
+          <h4 id="scroll-federalcourt">Ed Jones Federal Building and U.S. Courthouse</h4>
           <p>Within hours of the devastation caused by the tornado to the Federal Courthouse; Crocker Construction was already meeting with the managing agent reviewing the building's damage. It had sustained over $6 million dollars in damage, but before daylight the Crocker Construction team had already begun repairing the roof, sealing the windows and doors and helping the courthouse staff remove and protect documents and records. That same day Crocker Construction was helping the owner make plans for renovations, meeting with the insurance company representatives and touring the building with an engineer to access the building's structural integrity. Within six months the 130,000 square foot courthouse was restored. This building is yet another example of the dedication, work ethic and skills Crocker Construction has to help clients and the Jackson community.
           </p>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls-5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/fedcourt1c.png" class="d-block w-100" alt="...">
@@ -187,11 +209,11 @@
                 <img src="img/fedcourtstairsc.png" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -210,23 +232,23 @@
           <h4 id="scroll-loveandtruth">Love and Truth Church</h4>
           <p>Crocker Construction recently customized a pre-engineered building system for Love and Truth Church in Jackson, Tennessee. The facility was a 4.3 million dollar project that was completed in fall 2010. Phase one of this project included a state of the art sound and video system as well as a premium coffee bar. It also included a 27,000 square foot sanctuary that seats 1,500 people and a fellowship hall. Phase two of the project included a 10,000 square foot nursery and daycare facility that is also used for Sunday school classes. The building has concrete floors and thirty foot high ceilings in the foyer and all common areas. Love and Truth Church is an example of the quality projects that Crocker Construction completes for their clients.
           </p>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls-6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/loveandtruthc.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/loveandtruthinsidec.jpg" class="d-block w-100" alt="...">
+                <img src="img/loveandtruthinsidec.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="img/loveandtruth2c.jpeg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
