@@ -11,23 +11,23 @@
     background-image:url(img/mahsstairs.png);
 }
 
-.top-section-hcbcorp{
-    background-image:url(img/jcmsinging.png);
+.top-section-newprojects{
+    background-image:url(img/theliftcafe.jpg);
 }
 
 .top-section-ourteam{
     background-image:url(img/mahslab.png);
 }
 
-.top-section-projects{
-    background-image:url(img/theliftcafe.jpg);
+.top-section-oldprojects{
+    background-image:url(img/fedcourt1.png);
 }
 
 .top-section-testimonials{
     background-image:url(img/jcmlibrary.png);
 }
 
-.top-section-contact, .top-section-other, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials{
+.top-section-contact, .top-section-other, .top-section-newprojects, .top-section-ourteam, .top-section-oldprojects, .top-section-testimonials{
     height: 80vh;
 }
 
@@ -54,7 +54,7 @@ a.colorless-link:hover{
 }
 
 /*alignment and background formatting*/
-.img-space-sm, .img-space-lg, .top-section-home, .top-section-contact, .top-section-hcbcorp, .top-section-ourteam, .top-section-projects, .top-section-testimonials {
+.img-space-sm, .img-space-lg, .top-section-home, .top-section-contact, .top-section-newprojects, .top-section-ourteam, .top-section-oldprojects, .top-section-testimonials {
     background-attachment: fixed;
     background-position: center;
 }
