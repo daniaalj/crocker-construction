@@ -1,10 +1,8 @@
 To do - Crocker Construction - DUE DECEMBER 9
 
 BUG CROCKER CONSTRUCTION!!!!!
-- get our team pictures
 
 - index:
-    - mash together basketball and choir information
     - improve for mobile
 - contact:
     - fix iframe formatting
@@ -13,7 +11,4 @@ BUG CROCKER CONSTRUCTION!!!!!
     - form info
 - projects:
     -each card shoud scroll down
-    each project's section should have a carousel
-- hcb corporation:
-	- determine layout
-	- decide on content
+    -each project's section should have a carousel
