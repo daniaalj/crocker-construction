@@ -245,15 +245,26 @@ a.navbar-brand {
     height:auto;
 }
 
+/*iframe*/
+
+.iframe-shape {
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 1rem;
+    aspect-ratio: 1/1;
+}
+
+iframe {
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
 @media (min-width: 992px) {
     .card-row {
         margin-bottom: 1rem;
     }
     .card {
         margin-bottom: 1rem;
-    }
-    .iframe-shape {
-        aspect-ratio: 1/1;
     }
 }
 
@@ -287,17 +298,14 @@ a.navbar-brand {
         margin-top: .75rem;
         margin-bottom: .75rem;
     }
-    .iframe-shape{
-        aspect-ratio: 2/1;
-    }
 } 
 
 @media(max-width: 600px) {
     h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     h1.home-text{
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
     h2{
         font-size: 3rem;
@@ -334,8 +342,5 @@ a.navbar-brand {
     }
     .right-info {
         padding-right: 2rem;
-    }
-    .iframe-shape {
-        aspect-ratio: 1/1;
     }
 } 
