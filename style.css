@@ -64,6 +64,10 @@ a.white-link:hover{
     cursor:pointer;
 }
 
+.logo:hover {
+    filter:opacity(70%);
+}
+
 /*alignment and background formatting*/
 .img-space-sm, .img-space-lg, .top-section-home, .top-section-contact, .top-section-newprojects, .top-section-ourteam, .top-section-oldprojects, .top-section-testimonials {
     background-attachment: fixed;
@@ -123,6 +127,7 @@ div.flush {
 /*testimonial formatting*/
 .testimonial {
     aspect-ratio: 3/2;
+    width: 100%;
 }
 
 /*text*/
@@ -265,6 +270,9 @@ iframe {
     }
     .card {
         margin-bottom: 1rem;
+    }
+    .testimonial-text{
+        padding-top: 3rem;
     }
 }
 
