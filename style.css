@@ -136,7 +136,7 @@ h1.title {
 }
 
 .text-shadow {
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
 
 h1, h2, h3, h4{
@@ -165,6 +165,19 @@ h5 {
 
 h6 {
     font-size: 1.2rem;
+}
+
+.subtle-text {
+    color: rgb(126, 126, 126)
+}
+
+.align-bottom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-bottom-item{
+    justify-content: center;
 }
 
 .statement-text {
@@ -256,13 +269,24 @@ a.navbar-brand {
     border-radius: 5%;
     overflow: hidden;
     margin: 1rem;
-    aspect-ratio: 1/1;
 }
 
 iframe {
     height: 100%;
-    aspect-ratio: 1/1;
 }
+
+iframe, .iframe-shape {
+    aspect-ratio: 4/2;
+}
+
+/*team info section boxes*/
+
+.info-box {
+    background-color:blanchedalmond;
+    height: auto;
+
+}
+
 
 @media (min-width: 992px) {
     .card-row {
@@ -306,6 +330,13 @@ iframe {
         margin-top: .75rem;
         margin-bottom: .75rem;
     }
+    iframe, .iframe-shape {
+        aspect-ratio: 3/2;
+    }
+    .job-info-box{
+        margin-bottom: 1rem;
+    }
+
 } 
 
 @media(max-width: 600px) {
@@ -344,11 +375,19 @@ iframe {
         margin-top: .5rem;
         margin-bottom: .5rem;
     }
-
     .left-info {
         padding-left: 2rem;
     }
     .right-info {
         padding-right: 2rem;
+    }
+    iframe, .iframe-shape {
+        aspect-ratio: 3/2;
+    }
+    .job-info-box{
+        margin-bottom: 1rem;
+    }
+    .certification-info-box{
+        margin-top: 1.5rem;
     }
 } 
