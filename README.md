@@ -34,9 +34,9 @@ We are TAROTS! Our names are Jessica Yin, Lilyan Dania Aljafari, and Eman Razeq 
 * Added images to repository
 * Created transparent image files for navbar and footer use
 * Added scrolling carousels for each project
-* Added information for Team Members and Projects
+* Added information for Team Members, Projects, and Contact pages
 * Added iframe on Contact Page
-* Added Testimonial video iframes
+* Added Testimonial video iframes and information
 
 # Eman Razeq
 
@@ -44,3 +44,5 @@ We are TAROTS! Our names are Jessica Yin, Lilyan Dania Aljafari, and Eman Razeq 
 * Added form on Contact Page
 * Added information to Projects page
 * Added information to Our Team page
+* Added buttons to contact page
+* Added columns and rows for contact page
